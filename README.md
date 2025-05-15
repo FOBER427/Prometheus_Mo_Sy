@@ -147,5 +147,68 @@ scrape_configs:
 </details>
 
 ---
+### ЧАСТЬ 2 Prometheus
 
 
+### Задание 1
+
+Создайте файл с правилом оповещения, как в лекции, и добавьте его в конфиг Prometheus.
+Требования к результату
+
+    Погасите node exporter, стоящий на мониторинге, и прикрепите скриншот раздела оповещений Prometheus, где оповещение будет в статусе Pending
+
+
+### *Ответ*
+
+<details>
+
+## Prometheus Alerts
+
+![Prometheus Alert Pending](.images/5.png)
+
+</details>
+
+---
+
+### Задание 2
+
+Установите Alertmanager и интегрируйте его с Prometheus.
+Требования к результату
+
+    Прикрепите скриншот Alerts из Prometheus, где правило оповещения будет в статусе Fireing, и скриншот из Alertmanager, где будет видно действующее правило оповещения
+
+
+### *Ответ*
+
+<details>
+
+## Alertmanager Integration
+
+### Prometheus - Prometheus.yml
+![prometheus.yml](.images/8.png)
+
+### Prometheus - Alert Firing
+![Firing Alert](.images/6.png)
+
+### Alertmanager - Active Alerts
+![Alertmanager](.images/7.png)
+
+
+</details>
+
+---
+
+### Задание 3
+
+Активируйте экспортёр метрик в Docker и подключите его к Prometheus.
+Требования к результату
+
+     приложите скриншот браузера с открытым эндпоинтом, а также скриншот списка таргетов из интерфейса Prometheus.*
+
+### *Ответ*
+
+<details>
+
+![metrics](.images/9.png)
+![prometheus.yml](.images/10.png)
+![Prometheus Targets](.images/11.png)
